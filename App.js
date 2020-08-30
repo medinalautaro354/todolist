@@ -1,0 +1,29 @@
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ *
+ * @format
+ * @flow strict-local
+ */
+
+import React from 'react';
+import { StyleSheet } from 'react-native';
+
+import Home from './src/pages/Home';
+
+const App = () => {
+
+  return (
+    <>
+      <Home />
+    </>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  }
+});
+
+export default App;
